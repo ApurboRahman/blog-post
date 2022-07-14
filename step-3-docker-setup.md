@@ -15,18 +15,18 @@ For additional configuration Refer the following link
 https://docs.docker.com/engine/swarm/configs/
 
 
-###Start Container
+### Start Container
 To start it up, we simply have to execute the start method:
 
 ```container.start();```
 
-###Stop Container
+### Stop Container
 
 To stop the container
 
 ```container.stop();```
 
-###Disbale Proxy
+### Disbale Proxy
 If you use proxy, you can disable those checks by creating the file  in the tests resources directory  ```application-testcontainers.properties``` with this content:
 
 ```check.disable=true```

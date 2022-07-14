@@ -1,1 +1,1 @@
-# blot-post
+# blog-post
